@@ -11,7 +11,7 @@ statDis="SQD"  # set to "SQD" for mean squared error, "TV" for total variation, 
 ## no-shuffling and shuffling:
 Modify the following line
 ```bash
-shuffle_mode="" # set to "" for no shuffling,  or to "shuffle" for shuffling 
+shuffle_mode="shuffle" # set to "" for no shuffling,  or to "shuffle" for shuffling 
 ```
 
 ## non-weighted and weighted aggregation:
