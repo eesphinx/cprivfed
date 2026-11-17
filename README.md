@@ -1,8 +1,8 @@
 # Privacy-preserving Federated Distribution Estimation: Local Differential Privacy Strikes Back
 
-This repository provides the [proofs](https://github.com/eesphinx/cprivFed/blob/main/proofs.pdf) for the theoritical results in the manuscript titled above, and a series of experiments in this manuscript that evaluate the protocols for estimating the distribution of sensitive attributes when the data points are collected by many clients untrusting each other. Every client applies a privacy mechanism to satisfy eps-DP to its local dataset. Then an aggregator collects the noisy data from all entities and estimates the global distributions. 
+This repository provides the [proofs](https://github.com/eesphinx/cprivFed/blob/main/proofs.pdf) for the theoritical results in the manuscript titled above, and the software artifact needed to parform the experiments in the manuscript. The experiments evaluate the protocols for federated distribution estimation, where data points are collected by many clients untrusting each other. Every client applies a privacy mechanism to satisfy eps-DP to its local dataset. Then an aggregator collects the noisy data from all entities and estimates the global distributions. 
 
-## Experimented methods:
+## Experimented protocols:
 
 1. Every local dataset is obfuscated by a central *Laplace* mechanism, then the noisy hisograms are aggregated, and normalized (LAP+N), (LAP+W+N).
 2. Every local dataset is obfuscated by a central *Gauss* mechanism, then the the noisy hisograms are aggregated, and normalized (GAUSS+N), (GAUSS+W+N).
