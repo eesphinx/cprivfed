@@ -1,6 +1,6 @@
 # Privacy-preserving Federated Distribution Estimation: Local Differential Privacy Strikes Back
 
-This repository provides the [proofs](https://github.com/eesphinx/cprivFed/-/tree/main/proofs.pdf) for the theoritical results in the manuscript titled above, and a series of experiments in this manuscript that evaluate the protocols for estimating the distribution of sensitive attributes when the data points are collected by many clients untrusting each other. Every client applies a privacy mechanism to satisfy eps-DP to its local dataset. Then an aggregator collects the noisy data from all entities and estimates the global distributions. 
+This repository provides the [proofs](https://github.com/eesphinx/cprivFed/blob/main/proofs.pdf) for the theoritical results in the manuscript titled above, and a series of experiments in this manuscript that evaluate the protocols for estimating the distribution of sensitive attributes when the data points are collected by many clients untrusting each other. Every client applies a privacy mechanism to satisfy eps-DP to its local dataset. Then an aggregator collects the noisy data from all entities and estimates the global distributions. 
 
 ## Experimented methods:
 
@@ -25,7 +25,7 @@ The current implementation targets macOS. Porting it to another operating system
 
 ## Experiments 
 
-Four core experiments are located in the [experiments](https://github.com/eesphinx/cprivFed/-/tree/main/experiments) directory, with execution scripts available in their respective subdirectories, and details of changing their settings. 
+Four core experiments are located in the [experiments](https://github.com/eesphinx/cprivFed/tree/main/experiments) directory, with execution scripts available in their respective subdirectories, and details of changing their settings. 
 
 1. *varying_leps2* : evaluating the estimation performance with varying differential privacy levels. 
 2. *varying_numds* : evaluating the estimation performance with varying number of local datasets.
@@ -43,7 +43,7 @@ The settings of each experiment can be set according to the following options.
 
 ## Running an experiment
 
-Consider any one of the above experiments with name <experiment_name>. The scripts of this experiment are placed in a subdirectory having the same name under [experiments](https://github.com/eesphinx/cprivFed/-/tree/main/experiments). 
+Consider any one of the above experiments with name <experiment_name>. The scripts of this experiment are placed in a subdirectory having the same name under [experiments](https://github.com/eesphinx/cprivFed/tree/main/experiments). 
 
 ### The estimation error
 To show the estimation error in the setting of experiment <experiment_name>, execute the following steps:
@@ -60,5 +60,5 @@ The settings of <experiment_name> can be controlled, and the details of changing
 The scripts of experiments 2, 3, 4 produce the execution time of GIBU in their settings, in addition to the estimation error. 
 
 ## Datasets
-Our experiments use two types of datasets as a source for the users' data: synthetic datasets generated at runtime, and the real [UCI Adult dataset](https://archive.ics.uci.edu/dataset/2/adult), which is in the directory [datasets](https://github.com/eesphinx/cprivFed/-/tree/main/datasets).
+Our experiments use two types of datasets as a source for the users' data: synthetic datasets generated at runtime, and the real [UCI Adult dataset](https://archive.ics.uci.edu/dataset/2/adult), which is in the directory [datasets](https://github.com/eesphinx/cprivFed/tree/main/datasets).
 
