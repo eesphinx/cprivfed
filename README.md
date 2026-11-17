@@ -31,6 +31,8 @@ Four core experiments are located in the [experiments](https://github.com/eesphi
 2. *varying_numds* : evaluating the estimation performance with varying number of local datasets.
 3. *varying_dssize* : evaluating the estimation performance with varying dataset size.
 4. *varying_alphabet* : evaluating the estimation performance with varying alphabet size. 
+5. *limited_sampling* : shows the impact of the limited sampling on the estimation performance
+6. *distribution_bias* : shows the impact of the distribution bias on the estimation performance
 
 ### Adjustable Settings
 
