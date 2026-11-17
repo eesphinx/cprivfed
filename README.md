@@ -27,12 +27,12 @@ The current implementation targets macOS. Porting it to another operating system
 
 Four core experiments are located in the [experiments](https://github.com/eesphinx/cprivFed/tree/main/experiments) directory, with execution scripts available in their respective subdirectories, and details of changing their settings. 
 
-1. *varying_leps2* : evaluating the estimation performance with varying differential privacy levels. 
-2. *varying_numds* : evaluating the estimation performance with varying number of local datasets.
-3. *varying_dssize* : evaluating the estimation performance with varying dataset size.
-4. *varying_alphabet* : evaluating the estimation performance with varying alphabet size. 
-5. *limited_sampling* : shows the impact of the limited sampling on the estimation performance
-6. *distribution_bias* : shows the impact of the distribution bias on the estimation performance
+1. *[varying_leps2](https://github.com/eesphinx/cprivFed/tree/main/experiments/varying_leps2)* : evaluating the estimation performance with varying differential privacy levels. 
+2. *[varying_numds](https://github.com/eesphinx/cprivFed/tree/main/experiments/varying_numds)* : evaluating the estimation performance with varying number of local datasets.
+3. *[varying_dssize](https://github.com/eesphinx/cprivFed/tree/main/experiments/varying_dssize)* : evaluating the estimation performance with varying dataset size.
+4. *[varying_alphabet](https://github.com/eesphinx/cprivFed/tree/main/experiments/varying_alphabet)* : evaluating the estimation performance with varying alphabet size. 
+5. *[limited_sampling](https://github.com/eesphinx/cprivFed/tree/main/experiments/limited_sampling)* : shows the impact of the limited sampling on the estimation performance
+6. *[distribution_bias](https://github.com/eesphinx/cprivFed/tree/main/experiments/distribution_bias)* : shows the impact of the distribution bias on the estimation performance
 
 ### Adjustable Settings
 
