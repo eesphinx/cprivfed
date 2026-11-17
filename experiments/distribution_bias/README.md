@@ -1,6 +1,6 @@
 # Showing the distribution bias effect
 
-In this experiment, the alphabet size, privacy levels, and the number of datasets are fixed to 200, while the individual datasets' size varies from 50 to 400. The original data is sampled from discretized beta distributions scaled to the alphabet [0..99] and then distributed non-homogeneously between two groups of clients, each consists of 100 clients. This experiment yields the results in Figure 21. The settings can be controlled by modifying the script 'distribution_bias.sh' as follow. 
+In this experiment, the alphabet size, privacy levels, and the number of clients are fixed, while the individual datasets' size varies from 50 to 400. The original data points are sampled from discretized beta distributions scaled to the alphabet [0..99] and then distributed non-homogeneously between two groups of clients, each consists of 100 clients. This experiment yields the results in Figure 21. The settings are controlled by modifying the script 'distribution_bias.sh' as follow. 
 
 ## choosing the estimation error metric
 Modify the following line with the required metric

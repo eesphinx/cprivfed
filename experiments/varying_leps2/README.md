@@ -1,8 +1,8 @@
-# Varying the privacy level for half of the datasets
+# Varying the privacy level for half of the clients
 
-In this experiment, we fix the alphabet size, the number of datasets, dataset's size, and the local privacy level ε_1 for half of the datasets, while we vary the local privacy level ε_2 for the other half of the datasets from 0.1 to 3.4. This experiment yields the results in Figures 4,5 (without weighting) and Figures 11,12 (with weighting). The settings are controlled by modifying the script 'varying_leps2.sh' as follow. 
+In this experiment, we fix the alphabet size, the number of clients, dataset's size, and the local privacy level ε_1 for half of the clients, while we vary the local privacy level ε_2 for the other half of the clients from 0.1 to 3.4. This experiment yields the results in Figures 4,5 (without weighting) and Figures 11,12 (with weighting). The settings are controlled by modifying the script 'varying_leps2.sh' as follow. 
 
-## To set the local privacy level ε_1 for the first half of datasets
+## To set the local privacy level ε_1 for the first half of the clients
 ```bash
 leps1="0.1"   # available options are "0.1" and "3.4"
 ```
@@ -24,7 +24,7 @@ shuffle_mode="" # set to "" for no shuffling,  or to "shuffle" for shuffling
 weights="equal" # set to "equal" for non-weighted aggregation, or "var" for weighted aggregation
 ```
 
-## To choose the dataset 
+## To choose the original dataset 
 For Synthetic dataset: 
 
 ```bash
