@@ -1,6 +1,6 @@
 # Varying the privacy level for half of the datasets
 
-In this experiment, we fix the alphabet size, the number of datasets, dataset's size, and the local privacy level ε_1 for half of the datasets, while we vary the local privacy level ε_2 for the other half of the datasets from 0.1 to 3.4. The settings of the experiments can be controlled by modifying the script 'varying_leps2.sh' as follow. 
+In this experiment, we fix the alphabet size, the number of datasets, dataset's size, and the local privacy level ε_1 for half of the datasets, while we vary the local privacy level ε_2 for the other half of the datasets from 0.1 to 3.4. This experiment yields the results in Figures 4,5 (without weighting) and Figures 11,12 (with weighting). The settings are controlled by modifying the script 'varying_leps2.sh' as follow. 
 
 ## To set the local privacy level ε_1 for the first half of datasets
 ```bash

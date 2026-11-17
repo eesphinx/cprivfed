@@ -1,6 +1,6 @@
 # Varying the dataset size
 
-In this experiment, the alphabet size, privacy levels, and the number of datasets are fixed, while the datasets' size varies from 50 to 400. The settings of the experiments can be controlled by modifying the script 'varying_dssize.sh' as follow. 
+In this experiment, the alphabet size, privacy levels, and the number of datasets are fixed, while the datasets' size varies from 50 to 400. This experiment yields the results in Figures 8,9 (without weighting), Figures 15,16 (with weighting), Figure 18(c) (GIBU execution time). The settings are controlled by modifying the script 'varying_dssize.sh' as follow. 
 
 ## choosing the estimation error metric
 Modify the following line with the required metric

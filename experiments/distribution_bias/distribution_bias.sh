@@ -23,7 +23,7 @@ clear
 # ./federated_central <space> <sampling_mode> <statDist> <clients> <estimators> <distanceFiles>   
 # gnuplot -c distribution_bias.gp <output_file> <stat_dist> <dssize_list> <ceps1_list> <ceps2_list> <protocol_a_files label1> <protocol_b_files label2> ...
 
-plot_cmd=(gnuplot -c "distributio_bias.gp")
+plot_cmd=(gnuplot -c "distribution_bias.gp")
 # Use as:  "${plot_cmd[@]}" <ARG1> <ARG2>...
 
 # parameters

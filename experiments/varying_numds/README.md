@@ -1,6 +1,6 @@
-# Varying the number of datasets
+# Varying the number of clients
 
-In this experiment, the alphabet size, privacy levels, and the datasets' size are fixed, while the number of datasets varies from 40 to 810. The settings of the experiments can be controlled by modifying the script 'varying_numds.sh' as follow. 
+In this experiment, the alphabet size, privacy levels, and the datasets' size are fixed, while the number of clients varies from 40 to 810. This experiment yields the results in Figures 6,7 (without weighting), Figures 13,14 (with weighting), and Figure 18(b) (GIBU execution time). The settings are controlled by modifying the script 'varying_numds.sh' as follow. 
 
 ## To choose the estimation error metric
 Modify the following line with the required metric
