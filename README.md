@@ -25,7 +25,7 @@ The current implementation targets macOS. Porting it to another operating system
 
 ## Experiments 
 
-Four core experiments are located in the [experiments](https://github.com/eesphinx/cprivFed/tree/main/experiments) directory, with execution scripts available in their respective subdirectories, and details of changing their settings. 
+Six core experiments are located in the [experiments](https://github.com/eesphinx/cprivFed/tree/main/experiments) directory, with execution scripts available in their respective subdirectories, and details of changing their settings. 
 
 1. *[varying_leps2](https://github.com/eesphinx/cprivFed/tree/main/experiments/varying_leps2)* : evaluating the estimation performance with varying differential privacy levels. 
 2. *[varying_numds](https://github.com/eesphinx/cprivFed/tree/main/experiments/varying_numds)* : evaluating the estimation performance with varying number of clients.
